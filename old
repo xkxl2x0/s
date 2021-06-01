@@ -1,0 +1,164 @@
+	-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local Frame = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+local MheeHub = Instance.new("TextButton")
+local BKHAXHUB = Instance.new("TextButton")
+local RasputinHub = Instance.new("TextButton")
+local XenosHub = Instance.new("TextButton")
+local TextButton_2 = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Main.Name = "Main"
+Main.Parent = ScreenGui
+Main.BackgroundColor3 = Color3.fromRGB(120, 120, 120)
+Main.Position = UDim2.new(0.274447948, 0, 0.374077976, 0)
+Main.Size = UDim2.new(0, 566, 0, 340)
+Main.Visible = false
+Main.Active = true
+Main.Draggable = true
+
+Frame.Parent = Main
+Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame.Position = UDim2.new(0.0235081371, 0, 0.0294117648, 0)
+Frame.Size = UDim2.new(0, 540, 0, 320)
+
+TextLabel.Parent = Main
+TextLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.Position = UDim2.new(0.0235081371, 0, 0.0294117648, 0)
+TextLabel.Size = UDim2.new(0, 527, 0, 50)
+TextLabel.Font = Enum.Font.SciFi
+TextLabel.Text = "Blox Fruits Hubs"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+TextButton.Parent = Main
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+TextButton.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.Position = UDim2.new(0.905967474, 0, 0.0294117648, 0)
+TextButton.Size = UDim2.new(0, 39, 0, 50)
+TextButton.Font = Enum.Font.SourceSansBold
+TextButton.Text = "X"
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextSize = 60.000
+
+MheeHub.Name = "Mhee Hub"
+MheeHub.Parent = Main
+MheeHub.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+MheeHub.BorderColor3 = Color3.fromRGB(255, 255, 255)
+MheeHub.Position = UDim2.new(0.0506329127, 0, 0.214705884, 0)
+MheeHub.Size = UDim2.new(0, 177, 0, 74)
+MheeHub.Font = Enum.Font.SciFi
+MheeHub.Text = "Mhee Hub"
+MheeHub.TextColor3 = Color3.fromRGB(255, 255, 255)
+MheeHub.TextSize = 40.000
+MheeHub.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/BunnySalf/Hentai/main/MHEEHUB",true))()
+end)
+
+BKHAXHUB.Name = "BKHAX HUB"
+BKHAXHUB.Parent = Main
+BKHAXHUB.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+BKHAXHUB.BorderColor3 = Color3.fromRGB(255, 255, 255)
+BKHAXHUB.Position = UDim2.new(0.616636515, 0, 0.214705884, 0)
+BKHAXHUB.Size = UDim2.new(0, 140, 0, 74)
+BKHAXHUB.Font = Enum.Font.SciFi
+BKHAXHUB.Text = "BKHAX HUB"
+BKHAXHUB.TextColor3 = Color3.fromRGB(255, 255, 255)
+BKHAXHUB.TextSize = 40.000
+BKHAXHUB.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(("https://raw.githubusercontent.com/koonpeatch/PeatEX/master/BKHAX/BloxFruits"),true))() 
+end)
+
+RasputinHub.Name = "Blox Fruit Scripts"
+RasputinHub.Parent = Main
+RasputinHub.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+RasputinHub.BorderColor3 = Color3.fromRGB(255, 255, 255)
+RasputinHub.Position = UDim2.new(0.56238699, 0, 0.623529375, 0)
+RasputinHub.Size = UDim2.new(0, 140, 0, 74)
+RasputinHub.Font = Enum.Font.SciFi
+RasputinHub.Text = "Rasputin Hub "
+RasputinHub.TextColor3 = Color3.fromRGB(255, 255, 255)
+RasputinHub.TextSize = 40.000
+RasputinHub.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://gist.githubusercontent.com/noob1ee1/5607f21c9874e3724f13a88109916896/raw/5a44dc988657f4eb23294b60aa64b874bc13253b"))()
+end)
+
+XenosHub.Name = "Xenos Hub"
+XenosHub.Parent = Main
+XenosHub.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+XenosHub.BorderColor3 = Color3.fromRGB(255, 255, 255)
+XenosHub.Position = UDim2.new(0.0506329164, 0, 0.644117653, 0)
+XenosHub.Size = UDim2.new(0, 140, 0, 74)
+XenosHub.Font = Enum.Font.SciFi
+XenosHub.Text = "Xenos Hub"
+XenosHub.TextColor3 = Color3.fromRGB(255, 255, 255)
+XenosHub.TextSize = 40.000
+XenosHub.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://reaperking.xyz/bloxfruit", true))()
+end)
+
+TextButton_2.Parent = ScreenGui
+TextButton_2.BackgroundColor3 = Color3.fromRGB(126, 126, 126)
+TextButton_2.Position = UDim2.new(0, 0, 0.544784009, 0)
+TextButton_2.Size = UDim2.new(0, 131, 0, 50)
+TextButton_2.Font = Enum.Font.SourceSansBold
+TextButton_2.Text = "Open"
+TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.TextScaled = true
+TextButton_2.TextSize = 14.000
+TextButton_2.TextWrapped = true
+
+
+local function TCIDY_fake_script() -- Main.Rainbow 
+	local script = Instance.new('LocalScript', Main)
+
+	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+	
+	counter = 0
+	
+	while wait(0.1)do
+		script.Parent.BackgroundColor3 = Color3.fromHSV(zigzag(counter),1,1)
+	
+		counter = counter + 0.01
+		end
+end
+coroutine.wrap(TCIDY_fake_script)()
+local function GLZVG_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+	
+	
+	
+end
+coroutine.wrap(GLZVG_fake_script)()
+local function JUBV_fake_script() -- TextButton_2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	local frame = script.Parent.Parent.Main  -- change “Test” to the name of the frane
+	local open = false
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if frame.Visible == false then
+			frame.Visible = true
+		end
+	end)
+	
+end
+coroutine.wrap(JUBV_fake_script)()
